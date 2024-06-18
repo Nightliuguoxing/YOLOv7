@@ -1,0 +1,8 @@
+
+train: data-fire-smoke/forest/images/train/    # 划分后 训练集 的照片路径
+val: data-fire-smoke/forest/images/val/        # 划分后 验证集 的照片路径
+test: data-fire-smoke/forest/images/test/      # 划分后 测试集 的照片路径
+
+nc: 2   #标签的类别书
+
+names: [ 'fire', 'smoke']   #标签
